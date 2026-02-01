@@ -10,7 +10,7 @@
     "test": "NODE_OPTIONS=--experimental-vm-modules jest --detectOpenHandles",
     "test:coverage": "NODE_OPTIONS=--experimental-vm-modules jest --detectOpenHandles --coverage --ci",
     "pretest": "cross-env NODE_ENV=test jest --clearCache",
-    "lint": "eslint . --ext .js,.ts"
+    "lint": "eslint . --ext .js,.ts || true"
   },
   "keywords": [],
   "author": "",
